@@ -5,6 +5,6 @@ namespace R5T.Norsica.Configuration.Suebia
 {
     public static class FileNames
     {
-        public const string NuGetConfigurationJsonFileName = "Configuration-NuGet.json";
+        public const string DotnetConfigurationJsonFileName = "Configuration-Dotnet.json";
     }
 }

@@ -9,9 +9,9 @@ namespace R5T.Norsica.Configuration.Suebia
 {
     public static class IConfigurationBuilderExtensions
     {
-        public static IConfigurationBuilder AddNuGetConfigurationJsonFile(this IConfigurationBuilder configurationBuilder, IServiceProvider configurationServiceProvider)
+        public static IConfigurationBuilder AddDotnetConfigurationJsonFile(this IConfigurationBuilder configurationBuilder, IServiceProvider configurationServiceProvider)
         {
-            configurationBuilder.AddJsonSecretsFilePath(configurationServiceProvider, FileNames.NuGetConfigurationJsonFileName);
+            configurationBuilder.AddJsonSecretsFilePath(configurationServiceProvider, FileNames.DotnetConfigurationJsonFileName);
 
             return configurationBuilder;
         }
